@@ -11,7 +11,7 @@ public class PrimeNumberinRange {
          int ub= sc.nextInt();
          int count =0;
         while(ub >=lb){
-             if( % lb==0){
+             if( count % lb==0){
                  System.out.println("Prime Number "+ub);
                  count--;
              }
